@@ -42,8 +42,7 @@
     "mocha": "^*",
     "react": "*",
     "react-native":"*",
-    "react-addons-test-utils": "*",
-    "react-native-mock": "*"
+    "react-addons-test-utils": "*"
   },
   "peerDependencies": {
     "react": "*",
