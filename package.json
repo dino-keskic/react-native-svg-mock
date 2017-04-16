@@ -6,9 +6,7 @@
   "scripts": {
     "lint": "eslint src",
     "mocha": "mocha --require babel-core/register test/test.js",
-    "test": "npm run mocha",
-    "build": "babel src --out-dir build",
-    "prepublish": "npm run build"
+    "test": "npm run mocha"
   },
   "keywords": [
     "react",
