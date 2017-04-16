@@ -1,6 +1,6 @@
 require("react-native-mock/mock");
 
-var React = require("react-native");
+var React = require("react");
 var ReactNativeSvg = require("../");
 
 var expect = require("chai").expect;

@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint src",
     "mocha": "mocha --require babel-core/register test/test.js",
-    "test": "npm run lint && npm run build && npm run mocha",
+    "test": "npm run build && npm run mocha",
     "build": "babel src --out-dir build",
     "prepublish": "npm run build"
   },
@@ -33,18 +33,17 @@
     "babel-core": "^6.13.2",
     "babel-eslint": "^6.1.2",
     "babel-preset-react-native": "^1.9.0",
-    "chai": "^3.5.0",
-    "enzyme": "^2.4.1",
-    "eslint": "^3.3.0",
-    "eslint-config-defaults": "^10.0.0-1",
-    "eslint-plugin-filenames": "^0.2.0",
-    "eslint-plugin-react": "^6.1.1",
-    "mocha": "^3.0.2",
-    "react": "~15.2.1",
-    "react-addons-test-utils": "~15.2.1",
-    "react-dom": "~15.2.1",
-    "react-native": "^0.31.0",
-    "react-native-mock": "^0.2.5"
+    "chai": "*",
+    "enzyme": "*",
+    "eslint": "^*",
+    "eslint-config-defaults": "*",
+    "eslint-plugin-filenames": "*",
+    "eslint-plugin-react": "*",
+    "mocha": "^*",
+    "react": "*",
+    "react-native":"*",
+    "react-addons-test-utils": "*",
+    "react-native-mock": "*"
   },
   "peerDependencies": {
     "react": "*",
