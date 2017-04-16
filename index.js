@@ -3,7 +3,7 @@ import React from "react";
 // Create a vanilla SVG component
 const createComponent = function (name) {
   return class extends React.Component {
-    static displayName =name
+    static displayName =name;
 
     static propTypes = {
       children: React.PropTypes.node
